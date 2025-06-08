@@ -306,3 +306,19 @@ nav a.active::after {
   height: 100%;
   display: block;
 }
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.secondary-btn {
+  background: #8b5cf6;
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.7);
+}
+.secondary-btn:hover {
+  background: #7c3aed;
+}
